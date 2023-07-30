@@ -1,6 +1,6 @@
 # JavaScript na prática
 A linguagem JavaScript nos proporciona um leque de possibilidades, dentre elas está o desenvolvimento o web, veja um exemplo prático com esses dois projetos em JavaScript
-<h2 Color="blue">Alguns detalhes do projeto</h2>
+<h2>Alguns detalhes do projeto</h2>
 <p>A organização em um projeto é de suma importância para uma boa experiência do usuário, nesses dois projetos uma técnica de organização
 bem prática foi utilizada as CSS Grid, mas o que é isso?</p>
 <p>O grid tem como principal objetivo auxiliar na:</p>
@@ -22,4 +22,4 @@ ajudando o designer a manter a harmonia visual do layout</p>
   <li>JavaScript</li>
 </ul>
 
-<p>Aqui é Cauã falando, até a próxima :)</p>
+<p>Observação: Como um defensor do clean code, todo o projeto está comentado e devidamente indentado, aqui é Cauã falando e até a próxima :)</p>
