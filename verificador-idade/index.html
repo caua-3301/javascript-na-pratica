@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cauã Pires Soares">
+    <meta name="description" content="Site que visa desenvolver minhas habilidade em JS">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Idade</title>
+</head>
+<body id="container">
+
+<!-- CABECALHO -->
+    <header id="cabecalho">
+        <h1>Verificador de idade</h1>
+    </header>
+
+<!-- CONTEÚDO PRINCIPAL DA PÁGINA -->
+    <main id="principal">
+
+        <p class="texto-interno">Ano de nascimento: <input type="number" name="ano_nasc" id="ano_nascimento"> </p>
+
+        <p class="texto-interno">Sexo:
+            <input type="radio" name="sexo" value="femi" class="sex"/><label for="femi">Feminino</label>
+            <input type="radio" name="sexo" value="masc" class="sex"/><label for="masc">Masculino</label>
+        </p>
+
+        <button id="verificar">Verificar</button>
+
+        <div>
+            <p id="info-idade"></p>
+            <img src="" alt="" id="foto">
+        </div>
+
+        <p id="last">Preencha os dados</p>
+    </main>
+
+
+<!-- RODAPÉ DA PÁGINA -->
+    <footer id="rodape">
+        <p>Cauã Pires | Developer</p>
+    </footer>
+
+
+<!-- LINK PARA A CHAMADA DO JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html> 

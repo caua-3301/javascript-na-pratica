@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*Configurando o body*/
+body{
+    margin: 0;
+    background-color: rgb(10, 67, 102)
+}
+
+/*Estilização geral dos textos*/
+*{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font: normal normal 1em sans-serif; 
+}
+
+/*Estilo particular de texto (texto que informa o horário e as saudações)*/
+p#informando{
+    color: rgb(33, 33, 33);
+}
+
+/*Estilo do meu h1 (titulo principal)*/
+h1{
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-size: 1.8em;
+}
+
+/*Estilziando a parte principal do site*/
+#principal{
+    margin: auto;
+    border-radius: 5%;
+    width: 450px;
+    height: 270px;
+    padding-top: 1px;
+    margin-bottom: 2%;
+    background-color: rgb(227, 227, 227);
+}
+
+/*Definindo dimensões e formatos das imagens*/
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/*Centralizando o cacecalho e o rodape (footer)*/
+#cabecalho{
+    margin: auto;
+}
+
+#rodape{
+    margin: auto;
+}

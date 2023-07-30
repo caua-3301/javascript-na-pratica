@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/*Configurações do body*/
+body{
+    background-color: rgb(55, 55, 55);
+    margin: 0;
+}
+/*Configurando meu container e organizando a página*/
+#container{
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows:15vh 52vh 5vh;
+    grid-template-areas: "cabecalho"
+                         "principal"
+                         "rodape";
+    gap: 5px;
+    justify-content: center;
+    
+}
+
+/*Definindo áreas*/
+#cabecalho{
+    margin-top: 10px;
+    grid-area: cabecalho;
+}
+#principal{
+    background-color: rgb(228, 228, 228);
+    border-radius: 5%;
+    grid-area: principal;
+}
+#rodape{
+    grid-area: rodape;
+}
+
+/*Texto e fonte*/
+h1{
+    color: rgb(228, 228, 228);
+    text-align: center;
+    font: normal normal 1.8em sans-serif;
+}
+p{
+    color: rgb(228, 228, 228);
+    text-align: center;
+    font: normal normal 0.8em sans-serif;
+}
+p.texto-interno{
+    color: rgb(41, 41, 41);
+    padding-left: 10px;
+    text-align: justify;
+    font: normal normal 1em sans-serif;
+}
+
+p#info-idade{
+    color: rgb(41, 41, 41);
+    padding-left: 10px;
+    text-align: center;
+    font: normal bold 0.8em sans-serif;
+}
+
+p#last{
+    color: rgb(41, 41, 41);
+    padding-left: 10px;
+    text-align: center;
+    font: normal bold 0.8em sans-serif;
+}
+
+button{
+    margin-left: 10px;
+}
+button:hover{
+    background-color: rgb(204, 204, 204);
+    transition: 200ms;
+}
+main > p:last-child{
+    font: normal normal 0.8em sans-serif;
+}
+
+/*Configurando estilo da imagem*/
+#foto{
+    display: none;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+   
+}
