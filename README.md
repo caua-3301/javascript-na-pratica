@@ -1,4 +1,4 @@
-# JavaScript na prátia
+# JavaScript na prática
 A linguagem JavaScript nos proporciona um leque de possibilidades, dentre elas está o desenvolvimento o web, veja um exemplo prático com esses dois projetos em JavaScript
 <h2 Color="blue">Alguns detalhes do projeto</h2>
 <p>A organização em um projeto é de suma importância para uma boa experiência do usuário, nesses dois projetos uma técnica de organização
