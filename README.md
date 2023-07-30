@@ -15,7 +15,7 @@ ajudando o designer a manter a harmonia visual do layout</p>
 
 ![Organização do site](https://github.com/caua-3301/javascript-na-pratica/assets/134548536/3a038974-ccd9-437a-9c32-f402ac5f81f6)
 
-<p>Tecnologia utilizadas:</p>
+<p>Tecnologias utilizadas:</p>
 <ul>
   <li>HTML5</li>
   <li>CSS3</li>
